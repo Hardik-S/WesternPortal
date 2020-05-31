@@ -1,0 +1,12 @@
+{ 
+  "manifest_version": 2,
+  "name": "Western Portal",
+  "description": "Fast & Easy Access to Western Sites", 
+  "version": "0.0.0.1",
+  "icons": {"Western": "western_logo.png"}, 
+  "browser_action": {
+    "default_icon": "western_logo.png", 
+    "default_popup": "popup.html"
+  },
+  "permissions": ["activeTab"]
+}
